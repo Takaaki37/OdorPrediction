@@ -110,7 +110,7 @@ history = model.fit(x_train,
                     )
 
 
-new_folder = "2-MIB" + "_node" + str(n_hidden) + "_ep" + str(epochs)
+new_folder = "2-MIB" + "_node" + str(n_hidden) + "_epochs" + str(epochs)
 if not os.path.exists(new_folder): 
     os.mkdir(new_folder)
 
